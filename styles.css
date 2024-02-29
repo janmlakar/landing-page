@@ -93,3 +93,21 @@ li {
 .logo {
     margin-bottom: 100px;
 }
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.photo {
+    display: flex;
+    flex-basis: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
