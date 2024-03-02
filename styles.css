@@ -36,8 +36,9 @@ button, .action {
 }
 
 .qtext {
-    font-style: light italic;
+    font-style: italic;
     font-size: 36px;
+    font-weight: lighter;
 }
 
 .author {
@@ -102,7 +103,7 @@ li {
 
 .photo {
     display: flex;
-    flex-basis: 150px;
+    flex-basis: 140px;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
@@ -110,4 +111,26 @@ li {
 
 .info {
     text-align: center;
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.qtext {
+    width: 750px;
+    margin-bottom: 0;
+}
+
+.author {
+    width: 750px;
+    text-align: right;
 }
