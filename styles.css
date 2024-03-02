@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 
-a, .subtext, .atext {
+a, .subtext, .atext, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -160,4 +160,9 @@ li {
 
 .inner_button {
     align-self: flex-end;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
 }
